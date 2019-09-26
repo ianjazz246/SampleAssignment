@@ -12,7 +12,7 @@ function addZalgo() {
 	for (textNode of textNodes) {
 		let nodeValue = textNode.nodeValue;
 		let rand = parseInt(Math.random() * nodeValue.length)
-		textNode.nodeValue = nodeValue.substr(0, rand) + allChars[parseInt(Math.random() * allChars.length)][0] + nodeValue.substr(rand, nodeValue.length) + allChars[parseInt(Math.random() * allChars.length)][0];
+		textNode.nodeValue = nodeValue.substr(0, rand) + allChars[parseInt(Math.random() * allChars.length)] + nodeValue.substr(rand, nodeValue.length) + allChars[parseInt(Math.random() * allChars.length)];
 	}
 }
 
