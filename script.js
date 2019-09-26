@@ -29,5 +29,5 @@ window.onload = function() {
 		textNodes.push(n);
 	}
 
-	window.setInterval(() => {addZalgo()}, 1000);
+	window.setInterval(() => {addZalgo()}, 200);
 }
